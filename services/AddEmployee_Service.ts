@@ -4,8 +4,7 @@ const connection = require('../connection/connection');
 
 const addEmployeeDef = { AddEmployee }
 
-function AddEmployee(firstName, middleName,
-    lastName, idNumber, dob, age, telephone, email, gender,
+function AddEmployee(firstName, middleName,lastName, idNumber, dob, age, telephone, email, gender,
     kraPin, nssf, nhif, pfNumber, salutation) {
     return new Promise((resolve, reject) => {
         connection.dbConnection().then((pool) => {

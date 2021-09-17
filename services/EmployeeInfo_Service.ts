@@ -27,7 +27,7 @@ function EmployeeInfo() {
         join Project P on ET.project = P.projectId
         where E.pfNumber = 6789 order by ET.trackingId desc `,
         function (error: any, results: any, fields: any) {
-          if (error) throw error;
+          if (error) reject(error);
           resolve(results);
         }
       );
