@@ -1,0 +1,26 @@
+{
+  "name": "Hapitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node-dev": "ts-node-dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.5",
+    "colors": "^1.4.0",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.2.37"
+  },
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/hapi": "^18.0.6",
+    "@types/node": "^16.9.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  }
+}
