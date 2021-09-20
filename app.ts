@@ -39,7 +39,6 @@ const init = async () => {
       method: "GET",
       path: "/api/AllEmployees",
       handler: (request, h) => {
-        console.log("Hello");
         return AllEmployeesDetailsService.allEmployeesDetails();
       },
     },
@@ -103,10 +102,8 @@ const init = async () => {
   //Starting the server
 
   await server.start();
-  console.log("server running on", server.info.uri + "/api/");
 };
 process.on("unhandledRejection", (err) => {
-  console.log(err);
   process.exit(1);
 });
 init();
