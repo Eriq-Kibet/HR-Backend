@@ -1,9 +1,0 @@
-{
-    "mysql": {
-        "connectionLimit": 10,
-        "host": "10.50.80.58",
-        "user": "amrs_user",
-        "password": "Ampath123",
-        "database": "hr_db"
-    }
-} 
