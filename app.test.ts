@@ -1,5 +1,5 @@
-const app = require("./app");
 
+export { };
 test("No test", () => {
 
 })
